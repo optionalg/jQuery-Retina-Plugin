@@ -10,6 +10,10 @@ $().retina([settings]);
     retina-suffix (default: @2x)
     The suffix for high resolution image file.
 
+    exclude-image-urls (default: [])
+    Parts or RegExps of Image URLs which are not processed.
+
+
 Example:
 <script src="jquery.retina.js" type="text/javascript"></script>
 <script type="text/javascript">
